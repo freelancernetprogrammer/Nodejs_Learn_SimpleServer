@@ -1,6 +1,8 @@
 //it is an internal nodejs libraries
 var http = require('http');
 
+
+
 //every access to this server result in receiving 'Hello World' message
 var server = http.createServer(function (req, res) {
     res.end('Hello World!');
